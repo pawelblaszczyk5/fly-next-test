@@ -6,6 +6,7 @@
 app = "fly-next-test"
 primary_region = "waw"
 memory_mb = 256
+swap_size_mb = 512
 
 [build]
 
@@ -13,7 +14,6 @@ memory_mb = 256
 internal_port = 3000
 force_https = true
 processes = ["app"]
-swap_size_mb = 512
 
 [[vm]]
 cpu_kind = "shared"

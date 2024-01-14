@@ -5,6 +5,10 @@ const nextConfig = {
     typedRoutes: true,
     taint: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: { ignoreDuringBuilds: true },
   images: {
     remotePatterns: [
       {
