@@ -5,7 +5,6 @@
 
 app = "fly-next-test"
 primary_region = "waw"
-memory_mb = 256
 swap_size_mb = 512
 
 [build]
@@ -18,3 +17,4 @@ processes = ["app"]
 [[vm]]
 cpu_kind = "shared"
 cpus = 1
+memory_mb = 256
